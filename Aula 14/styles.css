@@ -1,0 +1,93 @@
+body{
+    background-color: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+select{
+    margin-bottom: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-top: 50px;
+    border: solid 1px black;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inputs{
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 16px 0px rgba(0, 0, 0, 0);
+    padding: 7px;
+    min-width: 96%;
+    border: none;
+    background-color: #dedede;
+}
+
+.buttons{
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 48%;
+    height: 26px;
+}
+
+#submit-button{
+    transition: transform 0.3s ease;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#clean-button{
+    transition: transform 0.3s ease;        
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+#submit-button:hover{
+    transform: scale(1.1);
+}
+
+#clean-button:hover{
+    transform: scale(1.1);
+}
+
+#btn-voltar{
+    transition: transform 0.3s ease;
+    background-color: #1e1f1e94;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    align-self:flex-end;
+}
+
+#btn-voltar a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn-voltar:hover{
+    transform: scale(1.1);
+}
+
